@@ -3,6 +3,7 @@ package com.kirenraj.newsapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
+//just testing git flow
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

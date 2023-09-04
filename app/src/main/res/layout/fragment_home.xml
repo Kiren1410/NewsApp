@@ -6,19 +6,20 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:background="@drawable/background">
 
         <TextView
             android:id="@+id/tvNewsApp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="100dp"
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="50dp"
             android:gravity="center"
             android:text="@string/news_app1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -33,6 +34,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/design_default_color_secondary"
                 android:text="@string/login"
+                android:textSize="30sp"
+                android:background="?android:attr/selectableItemBackground"
                 app:cornerRadius="0dp" />
 
             <TextView
@@ -41,7 +44,7 @@
                 android:id="@+id/or"
                 android:layout_below="@+id/loginbtn"
                 android:text="@string/or"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 />
 
@@ -50,15 +53,13 @@
                 android:layout_width="220dp"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/others"
+                android:textSize="30sp"
                 android:layout_below="@+id/loginbtn"
-                android:backgroundTint="@color/design_default_color_secondary"
+                android:background="?android:attr/selectableItemBackground"
                 android:text="@string/sign_up"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
-
-
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,6 +67,7 @@
             android:id="@+id/others"
             android:layout_above="@id/socialicons"
             android:text="@string/or_sign_in_with"
+            android:textColor="@color/white"
             android:layout_centerHorizontal="true"/>
 
 

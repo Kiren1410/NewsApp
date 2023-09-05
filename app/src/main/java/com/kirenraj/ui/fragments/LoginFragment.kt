@@ -10,11 +10,7 @@ import com.kirenraj.ui.viewmodel.LoginViewModel
 import com.kirenraj.newsapp.R
 
 class LoginFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = LoginFragment()
-    }
-
+    private lateinit var binding: LoginFragment
     private lateinit var viewModel: LoginViewModel
 
     override fun onCreateView(
@@ -22,12 +18,6 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_login, container, false)
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
-        // TODO: Use the ViewModel
     }
 
 }

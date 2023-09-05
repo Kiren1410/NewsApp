@@ -33,7 +33,7 @@
             />
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -53,7 +53,7 @@
             android:layout_marginTop="20dp"
             android:textSize="19dp"/>
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -67,6 +67,7 @@
         </EditText>
 
         <TextView
+            android:id="@+id/linkForgotPw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="forgot password?"
@@ -74,6 +75,7 @@
             android:layout_marginEnd="15dp"
             android:textSize="17dp"
             android:layout_marginTop="5dp"
+            android:autoLink="web"
             />
 
         <Button

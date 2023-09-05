@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="329dp"
-        android:layout_height="363dp"
+        android:layout_width="330dp"
+        android:layout_height="332dp"
         android:src="@drawable/bbc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,6 +21,7 @@
         android:id="@+id/textView3"
         android:layout_width="333dp"
         android:layout_height="225dp"
+        android:background="@drawable/edit_text_bg"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque vestibulum elit, non sodales urna ultricies id. Donec placerat, elit sit amet lacinia auctor, magna magna pretium augue, et placerat tortor nibh a tellus. Aliquam sagittis dapibus libero, vitae iaculis ligula porttitor non. Suspendisse tempus, leo a pharetra tristique, libero lectus suscipit lectus, ac aliquam enim augue non arcu. Ut fringilla id mauris a ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam luctus dictum blandit. Praesent eu consequat nisi. Mauris odio enim, efficitur in vulputate ac, viverra vel nisi. Phasellus in mattis risus."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,19 +31,20 @@
         android:id="@+id/button"
         android:layout_width="190dp"
         android:layout_height="55dp"
-        android:text="Button"
+        android:text="Back"
+        android:backgroundTint="@color/app_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:layout_editor_absoluteX="109dp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="64dp"
-        android:layout_height="53dp"
+        android:layout_width="67dp"
+        android:layout_height="54dp"
         android:src="@drawable/ic_share"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/button"
-        tools:layout_editor_absoluteY="632dp" />
+        tools:layout_editor_absoluteY="619dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

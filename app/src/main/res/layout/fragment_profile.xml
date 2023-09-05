@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".ProfileFragment">
@@ -11,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -24,6 +26,89 @@
             android:layout_marginLeft="30dp"
             android:textSize="30dp" />
     </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:drawableRight="@drawable/ic_edit"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="260dp"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="390dp"
+    android:layout_height="50dp"
+    android:background="@drawable/edit_background"
+    android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:drawableRight="@drawable/ic_edit"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="220dp"
+        android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old Password"
+            android:drawableRight="@drawable/ic_edit"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="225dp"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Password"
+            android:drawableRight="@drawable/ic_edit"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="215dp"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_background"
+
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reviews"
+            android:drawableRight="@drawable/ic_edit"
+            android:drawablePadding="275dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+
 
 
 

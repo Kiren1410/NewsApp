@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.fragment_sign_up)
 
         val sharedPref = getSharedPreferences("production", Context.MODE_PRIVATE)
         val isSignedIn = sharedPref.getBoolean("is_signed_in",false)
@@ -27,6 +27,6 @@ class MainActivity : AppCompatActivity() {
             Log.d("justin", "user is signed in, display news")
         }
 
-        newsFeed.apply
+
     }
 }

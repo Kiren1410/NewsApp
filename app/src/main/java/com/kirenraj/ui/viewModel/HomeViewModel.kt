@@ -1,4 +1,4 @@
-package com.kirenraj.ui.viewmodel
+package com.kirenraj.ui.viewModel
 
 import androidx.lifecycle.ViewModel
 

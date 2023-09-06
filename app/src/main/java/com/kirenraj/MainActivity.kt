@@ -1,7 +1,8 @@
-package com.kirenraj.newsapp
+package com.kirenraj
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kirenraj.newsapp.R
 
 //test2,gvjh
 class MainActivity : AppCompatActivity() {
